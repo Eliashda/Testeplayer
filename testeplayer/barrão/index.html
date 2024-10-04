@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBeats</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <header>
+            <div class="perfil">
+                <i class="ri-user-fill"></i>
+            </div>
+            <div class="image-text">
+                <a href="jt.html">
+                    <img src="logo.jpg" alt="inicio">
+                </a>
+            </div>
+            <div class="settings-icon">
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <i class="ri-settings-5-fill"></i>
+            </div>
+        </header>
+    </nav>
+
+    <main class="player-area">
+        <div class="album-info">
+            <img src="logo.jpg" alt="Frank Sinatra">
+            <h2>Skyfall</h2>
+            <p>Adele</p>
+            <div class="controls">
+                <button id="prev"><i class="ri-skip-back-fill"></i></button>
+                <button id="play-pause"><i class="ri-play-fill"></i></button>
+                <button id="next"><i class="ri-skip-forward-fill"></i></button>
+            </div>
+            <div class="progress-container" id="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+        </div>
+        
+        <aside class="playlist">
+            <h3><img src="logo.jpg" width="60px" style="vertical-align: middle; margin-right: 10px; border-radius: 10px;">Playlist </h3>
+            <ul>
+                <li><img src="logo.jpg" width="75px">From the Start - Laufey</li>
+                <li><img src="logo.jpg" width="75px">Die Another Day - Jack White</li>
+                <li><img src="logo.jpg" width="75px">Skyfall - Adele</li>
+                <li><img src="logo.jpg" width="75px">Mr Lonely - Bobby Vinton</li>
+                <li><img src="logo.jpg" width="75px">Monaco</li>
+            </ul>
+        </aside>
+    </main>
+
+    <audio id="audio" controls style="display:none;">
+        <source src="Death Grips - Get Got.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+</body>
+</html>
